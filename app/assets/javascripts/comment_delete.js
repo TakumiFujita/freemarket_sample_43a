@@ -4,13 +4,13 @@ function buildHTML(item_id,id){
     <div class="delete-dialog">
       <div class="delete-dialog__message">
         <p>確認</p>
-        <h2>削除されたコメントは元に戻せません。</h2><br>
+        <h2>削除されたコメントは元に戻せません。</h2><br><br>
         <h2>本当に削除しますか？</h2>
       </div>
       <div class="delete-dialog__buttons">
         <div class="delete-dialog__buttons__cancel">キャンセル</div>
         <div class="delete-dialog__buttons__submit">
-          <a href="/items/${item_id}/comments/${id}", data-method = "delete", class: "confirm_delete">
+          <a href="/items/${item_id}/comments/${id}", data-method = "delete", class = "confirm_delete">
             コメントを削除する</a>
         </div>
       </div>
